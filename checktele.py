@@ -249,7 +249,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"⌯ 𓆩 Source Max #1 🐊 !'𓆪\n⎱ User : ↣ (@{username}❳!\n⎱ Hunting type : {choice}\n⎱ Reminder : #x5",
+                    f"⌯ 𓆩 Source Max #1 🐊 !'𓆪\n⎱ User : ↣ ( @{username} ❳!\n⎱ Hunting type : {choice}\n⎱ Reminder : #x5",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
